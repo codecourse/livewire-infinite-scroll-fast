@@ -31,6 +31,8 @@
             <main>
                 {{ $slot }}
             </main>
+
+            @livewireScriptConfig
         </div>
     </body>
 </html>
